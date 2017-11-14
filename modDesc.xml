@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="37">
+    <author>Timmiej93</author>
+    <version>1.0.0.2</version>
+
+    <title>
+        <en>Simple Reset</en>
+        <de>Einfache Zurücksetzung</de>
+        <nl>Simpele Reset</nl>
+        <fr>Réinitialisation Simple</fr>
+    </title>
+
+    <description>
+        <en>
+            <![CDATA[This mod allows you to upright your vehicle in its current location when it's overturned.
+
+Controls:
+Press Left Shift + Backspace for an instant reset
+Hold Left Shift + Backspace for a reset that's increasing in height every 1.5 seconds, especially useful for maps where the actual ground is below the object you drive on.
+
+Changelog:
+v1.0.0.1
+Fixed multiplayer issues
+
+v1.0.0.2
+Fixed bug where tractor had to be selected for the reset to work, in effect disabling the reset with increasing height.]]>
+        </en>
+        <de>
+            <![CDATA[Dieser Mod erlaubt Ihnen, Ihr Fahrzeug aufrecht zu stellen, wenn es umgestoßen ist.
+
+Tastenbelegungen: 
+Drücken Sie die linke Umschalt + Rücktaste für einen sofortigen Reset
+Halten Sie die linke Umschalt + Rücktaste für einen Reset, der in der Höhe alle 1,5 Sekunden ansteigt, besonders nützlich für Karten, in denen der eigentliche Boden unter dem Objekt liegt, auf dem Sie fahren.
+
+Changelog:
+v1.0.0.1
+Multiplayer-Probleme behoben
+
+v1.0.0.2
+Fehler behoben, bei dem der Traktor ausgewählt werden musste, damit das Zurücksetzen funktioniert, wodurch das Zurücksetzen mit zunehmender Höhe deaktiviert wird.]]>
+        </de>
+        <nl>
+            <![CDATA[Deze mod maakt het mogelijk om je voertuigen weer overeind te zetten, wanneer deze omgeslagen zijn.
+
+Besturing: 
+Druk op Linker Shift + Backspace voor een onmiddelijke reset
+Houdt Linker Shift + Backspace ingedrukt voor een reset die iedere 1.5 seconde hoger wordt, vooral handig voor kaarten waar de daadwerkelijke grond zich onder het object waar je op rijdt bevindt.
+
+Changelog:
+v1.0.0.1
+Multiplayer problemen verholpen
+
+v1.0.0.2
+Probleem verholpen waarbij de traktor geselecteerd moest zijn om de reset te laten werken, wat voorkwam dat de reset die steeds hoger wordt werkte.]]>
+        </nl>
+        <fr>
+        	<![CDATA[Ce mod vous permet de repousser votre véhicule lorsqu'il est renversé.
+
+Commandes:
+Appuyez sur Shift gauche + Backspace pour une réinitialisation instantanée
+Maintenez Shift gauche + Backspace pour une réinitialisation qui augmente en hauteur toutes les 1,5 secondes, particulièrement utile pour les cartes où le terrain réel est inférieur à l'objet sur lequel vous roulez.
+
+Changelog:
+v1.0.0.1
+Problèmes multijoueurs résolus
+
+v1.0.0.2
+Correction d'un bug où le tracteur devait être sélectionné pour que la réinitialisation fonctionne, ce qui désactive la réinitialisation en augmentant la hauteur.]]>
+        </fr>
+    </description>
+    <iconFilename>store.png</iconFilename>
+    <multiplayer supported="true"/>
+
+    <extraSourceFiles>
+        <sourceFile filename="scripts/register.lua" />
+    </extraSourceFiles>
+
+    <l10n filenamePrefix="translations/translation"/>
+
+    <inputBindings>
+        <input name="T93_resetVehicle" category="vehicle" key1="KEY_lshift KEY_backspace"/>
+    </inputBindings>
+</modDesc>

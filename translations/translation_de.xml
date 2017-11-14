@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <translationContributors>
+        Timmiej93
+    </translationContributors>
+
+    <texts>
+        <text name="T93_RV_Reset" text="Fahrzeug zurücksetzen" />
+
+        <text name="input_T93_resetVehicle" text="T93 Einfache zurücksetzung: Fahrzeug zurücksetzen" />
+    </texts>
+</l10n>

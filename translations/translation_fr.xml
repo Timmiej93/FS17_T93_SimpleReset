@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+    <translationContributors>
+        Timmiej93
+    </translationContributors>
+
+    <texts>
+        <text name="T93_RV_Reset" text="Remettre à zéro" />
+
+        <text name="input_T93_resetVehicle" text="T93 Réinitialisation simple: Remettre à zéro" />
+    </texts>
+</l10n>
